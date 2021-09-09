@@ -1,3 +1,14 @@
+##############################################################
+####                                                      ####
+####          AWS Powershell Cross-Account Auth           ####
+####               Authored by: Ryan Payne                ####
+####                                                      ####
+####    This function allows user to authenticate w/      ####
+####      a central Jump Account, then switch roles       ####
+####           into a list of target accounts.            ####
+####                                                      ####
+##############################################################
+
 function Get-Credentials {
 
     Param ()
